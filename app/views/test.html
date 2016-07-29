@@ -1,5 +1,8 @@
-<div wl-slider="imprime()" min='0' max='100' step='10' start='10' class="slider-range" value="imprime()"></div>
-<button ng-click=imprime()>OK</button>
-<!--<div wl-slider min='0' max='100' step='10' start='10' class="slider-range"></div>
-<div wl-slider min='0' max='100' step='10' start='10' class="slider-range"></div>-->
+<form>
+	Device name: <input ng-model="nameDevice"/><br/>
+	URI device: <input ng-model="uriDevice"/><br/>
+	type: <input ng-model="typeDevice"/><br/>
+	<button ng-click="insert()">Save</button><br/>
+	<button ng-click="print()">print All</button><br/>
+</form>
 
